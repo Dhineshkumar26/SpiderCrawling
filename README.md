@@ -4,6 +4,43 @@ This repo contains the script used by me to extract data out of webpages (web sc
 # Introduction and Installing Package
 Beautiful Soup is a Python library for pulling data out of HTML and XML files.
 
+#Make sure you have a python compiler installed
+Download and install Python 2.7.10 for Windows
+Go to Python 2.7.10 downloads page
+
+Find and download the Windows installer file that matches your system.
+
+Open the file to start the installation wizard.
+
+Follow the instructions and make a note of where Python is installed on your system.
+
+Add Python to path
+In the Windows menu, search for “advanced system settings” and select View advanced system settings.
+
+In the window that appears, click Environment Variables… near the bottom right.
+
+In the next window, find and select the user variable named Path and click Edit… to change its value. The value for this variable is a semi-colon-delimited list of file locations.
+
+Scroll to the end of the value, add a semi-colon, and then add the location of python.exe. (If you do not know where your python.exe is, you can search for it.)
+
+Click OK to save this change.
+
+If you do not have a user variable named Path, click the New… button.
+
+Add a variable named Path and make its value the location of python.exe.
+
+Finding python.exe
+If you do not know where Python was installed, search for python.exe in the Windows menu.
+
+Right-click the file name in the results, select Properties, and find Location.
+
+Copy the location and add it to your path variable.
+
+Confirm addition to path
+Open a new command prompt and re-run the original command:
+
+python
+to confirm that Python 2.7.10 is installed and added to your path.
 ```
 $ pip install beautifulsoup4.
 ```
